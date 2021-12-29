@@ -6,7 +6,9 @@
 
 body {
   font-family: 'Josefin Sans', sans-serif;
+  background-color: hsl( 235, 21%, 11%);
   display: flex;
+  font-size: 18px;
   justify-content: center;
 }
 
@@ -32,5 +34,18 @@ body {
   margin: 0px;
   border: 1px solid red;
   margin-top: 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 10px;
 }
 
