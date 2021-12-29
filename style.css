@@ -49,3 +49,32 @@ body {
   letter-spacing: 10px;
 }
 
+.new-todo {
+  background-color: hsl(235, 24%, 19%);
+  height: 70px;
+  margin-top: 50px;
+  border-radius: 6px;
+  display: flex;
+}
+
+.check {
+  background-color: yellow;
+  width: 70px;
+  
+}
+
+.new-todo-input {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.new-todo-input form {
+  flex-grow: 1;
+}
+
+.new-todo-input input {
+  width: 100%;
+  padding: 10px;
+}
+
