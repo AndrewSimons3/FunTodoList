@@ -35,6 +35,9 @@ function generateItems(items) {
 			  <div class="todo-text ${item.status == "completed" ? "checked" : ''}">
           ${item.text}
         </div>
+        <div class="cross">
+          <img src="./images/icon-cross.svg" />
+        </div>
 			</div>
     `;
 	});
