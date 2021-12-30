@@ -12,6 +12,10 @@
 			rel="stylesheet"
 		/>
 		<link rel="stylesheet" href="./style.css" />
+		<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-analytics.js"></script>
+		<script src="./firebase.js"></script>
 		<script src="./script.js"></script>
 	</head>
 	<body>
@@ -48,9 +52,7 @@
 								<img src="./images/icon-check.svg" />
 							</div>
 						</div>
-						<div class="todo-text">
-							Cut the lawn
-						</div>
+						<div class="todo-text">Cut the lawn</div>
 					</div>
 					<div class="todo-item">
 						<div class="check">
@@ -58,9 +60,7 @@
 								<img src="./images/icon-check.svg" />
 							</div>
 						</div>
-						<div class="todo-text">
-							Cut the lawn
-						</div>
+						<div class="todo-text">Cut the lawn</div>
 					</div>
 					<div class="todo-item">
 						<div class="check">
@@ -68,12 +68,20 @@
 								<img src="./images/icon-check.svg" />
 							</div>
 						</div>
-						<div class="todo-text">
-							Cut the lawn
-						</div>
+						<div class="todo-text">Cut the lawn</div>
 					</div>
 				</div>
-				<div class="todo-items-info"></div>
+				<div class="todo-items-info">
+					<div class="items-left">5 items left</div>
+					<div class="items-statuses">
+						<span class="active">All</span>
+						<span>Active</span>
+						<span>Completed</span>
+					</div>
+					<div class="items-clear">
+						<span>Clear Completed</span>
+					</div>
+				</div>
 			</div>
 		</div>
 	</body>
